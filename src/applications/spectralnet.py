@@ -2,7 +2,9 @@
 spectralnet.py: contains run function for spectralnet
 '''
 import sys, os, pickle
-import tensorflow as tf
+# import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 import numpy as np
 import traceback
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '0'
