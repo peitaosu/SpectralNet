@@ -3,3 +3,4 @@ tensorflow
 munkres
 annoy
 h5py
+keras
